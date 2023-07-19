@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class hesap2{
-
         static void Topla(double sayi1,double sayi2){
             double sonuc=0;
             sonuc=sayi1+sayi2;
@@ -29,6 +28,7 @@ public class hesap2{
         char secim=' ';
         char karar=' ';
         Scanner giris=new Scanner(System.in);
+            
         do{
         System.out.printf("1.sayıyı girin:");
         sayi1=giris.nextInt();
@@ -60,7 +60,7 @@ public class hesap2{
         }
         System.out.println("Tekrar işlem yapmak istiyor musunuz?(e/E)");
         karar=giris.next().charAt(0);
-
+                
     }while(karar=='E' || karar=='e');
 }
 }
