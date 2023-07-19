@@ -24,7 +24,6 @@ public class hesap2{
         System.out.println("Hesap makinesi programına hoş geldiniz.");
 
         double sayi1,sayi2;
-        double sonuc=0;
         char secim=' ';
         char karar=' ';
         Scanner giris=new Scanner(System.in);
